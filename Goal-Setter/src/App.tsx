@@ -36,7 +36,7 @@ function App() {
       <Header image ={{src:GoalsImg,alt:"A list of goals"}}>
         <h1>My Course Goals</h1>
       </Header>
-      <NewGoal onAddGoal={handleAddGoal}/>
+      <NewGoal onAddGoal={handleAddGoal} />
       <CourseGoalList goals={goals} onDeleteGoal={handleDeleteGoal} />
     </main>
   )
